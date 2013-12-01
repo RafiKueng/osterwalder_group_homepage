@@ -98,19 +98,72 @@ textarea {
    ========================================================================== */
 
 
+body {
+  width: 95%;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+}
 
 
 
+div.headerarea,
+div.menuarea {
+  width: 100%;
+}
 
+.headerarea img{
+  float:right;
+}
 
+.menuarea {
+  overflow: hidden;
+  background-color:#444;
+}
 
+.menuarea .imgcont {
+  position:relative;
+  left: -500%;
+  right: 500%;
+  width: 1100%;
+} 
 
+.imgcont img {
+  display:block;
+  margin: auto;
+}
 
+ul.menu{
+  clear: both;
+  margin:0;
+  padding:0;
+}
+  
+ul.menu li{
+  display:inline-block;
+  width: 100px;
+  padding:10px;
+}
 
+.menu.top > li {
+  background-color: #ddd;
+}
 
+.menu.sub > li {
+  background-color: #999;
+}
 
+.menu > li:hover {
+  background-color: #990;
+}
 
+.menuarea:after {
+  clear:both;
+}
 
+.body {
+  clear: both;
+}
 
 
 /* ==========================================================================
