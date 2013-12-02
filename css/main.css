@@ -1,11 +1,3 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -94,7 +86,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Custom styles
    ========================================================================== */
 
 html {
@@ -114,47 +106,42 @@ body {
 
 #container { /* this is needed to place the footer correctly */
   position: relative;
-  min-height:100%;
+  min-height: 100%;
 }
 
 
 /* === Header === */
 
 header, nav {
+  overflow:hidden;
   width: 100%;
   margin: 0 0 0 0;
 }
 
-header img { /* this could be deleted.. make sure the background images have right dimensions.. maybe even make them as a css background image to the div */
-  max-height: 150px;
+#uzhlogo {
+  display: block;
+  float: right;
 }
 
 h1 {
   display: block;
-  position: relative;
-  left: 108px; /* align with UZH logo*/
-  margin: 0 0 0.25em 0;
+  margin: 0.5em 0 1em 0;
 }
 
-#imgcont {
-  width: 100%;
-
-  background-color:#000;
-} 
-
-#imgcont img {
-  width: 100%; /* make sure img is full width */
+#banner {
   display:block;
-  margin: auto; /* center image */
+  width: 100%;
+  background-color:#000;
 }
+
+
 
 /* === MENUE === */
+
 nav {
   display: block;
-  position: relative;
-  left: 0; /* make colored background go full width*/
-  right: 0;
   width: 100%;
+  
   background-color: #000;
   color: #fff;
   margin: 0 auto;
@@ -164,13 +151,14 @@ nav {
 nav.fixed { /* the fixed nav bar when scrolled down */
   position: fixed;
   top: 0;
+  width: 95%; /* same as body */
   max-width: 1000px; 
 }
 
 nav ul{
   display: block;
-  position: relative;
-  width: 100%;
+/*  position: relative;
+  width: 100%;*/
   margin: 0 auto;
   padding: 0;
 }
@@ -194,7 +182,7 @@ nav .sub > li {
 
 nav a:link,
 nav a:visited {
-  color: inherit;
+  color: inherit; /* override browser default */
   text-decoration:none;
 }
 
@@ -279,6 +267,7 @@ figure figcaption {
 
 
 /* === FOOTER === */
+
 footer {
   position: absolute;
   clear: both;
@@ -400,11 +389,15 @@ footer p {
     *zoom: 1;
 }
 
+
+
+
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Media Queries for Responsive Design.
    ========================================================================== */
+
+
+
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
