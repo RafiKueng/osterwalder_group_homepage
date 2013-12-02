@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Rafael Kueng -- Design and Programming
 
 # THANKS
 
