@@ -97,72 +97,211 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  height: 100%;
+}
 
 body {
   width: 95%;
+  overflow-x: hidden;
   min-width: 300px;
   max-width: 1000px;
+  min-height: 100%;
+  height: 100%;
   margin: auto;
+  
 }
 
+#container {
+  position: relative;
+  min-height:100%;
+}
 
+/* === Header === */
 
-div.headerarea,
-div.menuarea {
+header, nav {
   width: 100%;
+  margin: 0 0 0 0;
 }
 
-.headerarea img{
-  float:right;
+header img{
+  /*float:left;*/
 }
 
-.menuarea {
-  overflow: hidden;
-  background-color:#444;
+h1 {
+  display: inline-block;
+  position: relative;
+  left: 108px;
+  margin: 0 0 0.5em 0;
 }
 
-.menuarea .imgcont {
+.imgcont {
   position:relative;
-  left: -500%;
-  right: 500%;
-  width: 1100%;
+  left: -450%;
+  right: 450%;
+  width: 1000%;
+
+  /*overflow: hidden;*/
+  background-color:#0028a5;
 } 
 
 .imgcont img {
+  /*width: 1000px;*/
   display:block;
   margin: auto;
 }
 
-ul.menu{
-  clear: both;
-  margin:0;
+/* === MENUE === */
+nav {
+  display: block;
+  position: relative;
+  left: -450%;
+  right: 450%;
+  width: 1000%;
+  background-color: #0028a5;
+  color: #fff;
+  margin: 0 0 3em 0;
+  padding: 3px;
+}
+
+nav ul{
+  display: block;
+  position: relative;
+  left: 45%;
+  right: 55%;
+  margin: 0 0 0 0;
   padding:0;
 }
   
-ul.menu li{
+nav li{
   display:inline-block;
-  width: 100px;
-  padding:10px;
+  /*width: 100px;*/
+  margin: 0 0 0 0;
+  padding: 5px 10px 5px 10px;
 }
 
-.menu.top > li {
-  background-color: #ddd;
+nav li.active {
+  color: #dc6027;
+  /*background-color: #a3adb7;*/
 }
 
-.menu.sub > li {
-  background-color: #999;
+nav li:hover {
+  color: #000;
+  background-color: #dc6027;
 }
 
-.menu > li:hover {
-  background-color: #990;
-}
-
-.menuarea:after {
+/*nav:after {
   clear:both;
+}*/
+
+nav .top > li {
+  /*background-color: #ddd;*/
 }
 
-.body {
+nav .sub > li {
+  font-size: 80%;
+  /*background-color: #999;*/
+}
+
+/* === BODY ELEMENTS === */
+
+article {
+  overflow:hidden;
+  height: auto;
+  min-height: 100%;
+  /*min-height: 500px;*/
+  padding-bottom: 3em
+}
+
+section {
+  overflow: hidden;
+}
+
+
+img.right {
+  float: right;
+}
+
+img.left {
+  float: left;
+}
+
+img.big {
+  max-width: 500px;
+  max-height: 400px;
+}
+img.small {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+figure {
+  display: inline-block;
+  
+  margin: 10px;
+  padding: 5px;
+  
+  border: 10px solid white;
+
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+figure img {
+  display: block;
+}
+
+figure figcaption {
+  text-align: center;
+  margin-top: 8px;
+}
+
+figure.right {
+  float: right;
+}
+
+figure.left {
+  float: left;
+}
+
+figure.big {
+  max-width: 500px;
+  max-height: 400px;
+}
+figure.small {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+
+/* === FOOTER === */
+footer {
+  position: absolute;
   clear: both;
+  bottom: 0;
+  left: -450%;
+  right: 450%;
+  width: 1000%;
+  height: 3em;
+  background-color: #a3adb7;
+  
+  font-size: 70%;
+  text-align: right;
+}
+
+#footercontainer {
+  display: block;
+  position: relative;
+  clear:both;
+  width: 10%;
+  left: 45%;
+  right: 55%;
+}
+
+footer p {
+  margin: 0;
+  padding: 1em;
 }
 
 
