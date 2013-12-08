@@ -1,6 +1,8 @@
 
+navInitPos = $('nav').position().top;
+
 $(window).scroll(function () {
-  if ($(window).scrollTop() > 312) {
+  if ($(window).scrollTop() > navInitPos) {
     $('nav').addClass('fixed');
   }
   else {
