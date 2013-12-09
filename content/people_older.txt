@@ -1,0 +1,62 @@
+	Luis Henrique de Lima	Aug. 13	lhlima@ifi.unicamp.br 
+Prof.	Hugo Dil	Jun. 13	hugodil@physik.uzh.ch
+	Stefan Muff	Jun. 13	stef.87@bluewin.ch
+Dr.	Bartosz Slomski	Mar. 13	bartosz.slomski@psi.ch 
+Prof.	Peter Krüger	Jan. 13	pkruger@u-bourgogne.fr 
+	Fabienne Dahinden	Dec. 12	fabienne.dahinden@uzh.ch 
+Prof.	Fumihiko Matsui	Nov. 12	matui@ms.naist.jp	back to NAIST
+	Fabian Hofmann	Aug. 12	fabian.hofmann@phys.ethz.ch  
+Dr.	Dominik Leuenberger	Mar. 12	leuenber@physik.uzh.ch 
+	Colette Rosenberg	Jan. 12	colette.rosenberg@bluewin.ch 
+Dr.	Haifeng Ma	Mai 11	hfma@physik.uzh.ch
+	Huanyao Cun	Apr. 11	hycun1@physik.uzh.ch	back to IOP Beijing
+	Martin Klöckner	Mar. 11	kloeckne@physik.unizh.ch	left for Mathis AG, Oberhasli
+Dr.	Martin Morscher	Mar. 11	martin.morscher@physik.unizh.ch 
+Dr.	Hirofumi Yanagisawa	Dec. 10	hirofumi@phys.ethz.ch	left for ETHZ Ambizione
+Dr.	Fabian Meier	Dec. 10	fabian@physik.uzh.ch 
+	Valentina Waller	Oct. 10	waller@phys.ethz.ch 
+	Luc Pazeller	Aug. 10	lucpazeller@hotmail.com 
+Dr.	Thomas Brugger	Jan 10		left for Sensirion
+	Meral Aksak	Dec 09
+	Mathias Hausherr	Aug 09
+	Dominic Böni	Aug 09		left for Sensirion
+	Mario Thomann	Jul 09		left for CSEM
+	Jeanette Schmidlin	Dec 08	jean.schmidlin@hispeed.ch	left for MAS SHE 
+	Silvan Roth	August 08		left for Inspire 
+Dr.	Carine Galli Marxer	April 08		left for CTI; The Innovation Promotion Agency
+	Tobias Wassmann	April 08		left for Paris; IMPMC
+	Thomas Mattle	March 08	thomas.mattle@bluewin.ch	left for ESA 
+	Andrius Dvezius	January 08	devigy@ar.fi.lt	went back to Institute of Physics Lithuania
+Dr.	Simon Berner	December 07		left for Straumann, Basel 
+	Louis Brandenberger	August 07		left for ELCA 
+Dr.	Jorge Lobo-Checa	February 07		left for Unibas; Nanolab. 
+Dr.	Claudio Cirelli	February 07		left for ETHZ; IQE. 
+Dr.	Martina Corso	December 06		left for San Sebastian; NanoPhysics Lab
+Dr.	Cynthia Hengsberger	October 06	chengsberger@bluewin.ch
+	Milan Allan	August 06	milan@student.ethz.ch	left for ETHZ
+Dr.	Andrei Dolocan	July 06	adol@physik.unizh.ch	left for Japan
+Dr.	Richard Schillinger	June 06		left for Carl Zeiss NTS GmbH TEM Entwicklung / Development
+Dr.	Taichi Okuda	February 06		back to Institute for Solid State Physics; University of Tokyo
+Dr.	Anna Tamai	December 05		left for Centre for Science at Extreme Conditions; CSEC University of Edinburgh
+Dr.	Bingzhang Xue	October 05	bzx2@yahoo.com	left for Converium Insurance Company
+Dr.	Matthias Muntwiler	August 04	hiisi@physik.unizh.ch	left for the states
+	Thomas Gresch	April 04	gresch@physik.unizh.ch
+Dr.	Moritz Hoesch	December 03		left for SPring-8; Japan
+Dr.	Willi Auwärter	September 03		left for AMPEL; Vancouver.
+Dr.	Joachim Wider	September 03	wider@physik.unizh.ch
+Dr.	Hansjörg Neff	May 03		left for Kantonsschule Hohe Promenade; CH-8001 Zürich
+	Werner Deichmann	April 03		left for Ruhestand
+	Mike Barry	February 03	mbarry@kmu-software.com
+Dr.	Felix Baumberger	December 02		left for Stanford.
+Dr.	Iwao Matsuda	August 01		left for Hasegawa Lab; Tokyo University; Tokyo 113-0033
+	Reto Karrer	July 01		left for KSK Kantonsschule; CH-8700 Küsnacht
+Dr.	Jörg Kröger	June 00		left for IEAP Universität Kiel; D-24098 Kiel
+Dr.	Reto Holzner	February 99		left for Contraves Space; CH-8052 Zürich
+	Simon Berner	January 99		left for Uni Basel; CH-4056 Basel
+	Arno Schneider	January 99		left for ETH; CH-8093 Züich
+Dr.	Ernst Wetli	September 98		left for spectrospin; CH-8117 Fällanden
+Dr.	Patrick Schwaller	April 98		left for FK; CH-1700 Fribourg
+Dr.	Thomas J. Kreutz	March 98		left for PPE; D-79650 Schopfheim
+Dr.	Stefan Dangel	December 97		left for CAP Computer Assisted Physics UZH; CH-8057 Zürich
+	Hubert Schmid	Mai 97		left for KSW Kantonsschule; CH-8055 Wiedikon
+	Yargo Bonetti	January 96		left for PSI CH-5232 Villingen 
