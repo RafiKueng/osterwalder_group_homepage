@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * don't modify the "last update" date here, you can set it in the config file!!
+ */
+
 global $updated;
 echo <<<END
 

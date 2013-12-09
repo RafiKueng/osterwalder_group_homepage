@@ -132,7 +132,8 @@ h1 {
 
 #banner {
   display:block;
-  /*width: 100%;*/
+  width: 1000px;
+  height: 80px;
   background-color:#000;
 }
 
@@ -330,6 +331,11 @@ footer a {
 }
 
 .room, .email {
+  font-size: 0.667em;
+}
+
+.leavedate,
+.leavedest {
   font-size: 0.667em;
 }
 
