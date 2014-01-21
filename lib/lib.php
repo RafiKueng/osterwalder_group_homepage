@@ -44,6 +44,26 @@ function read_csv($filename="") {
   }
 }
 
+/**
+ * reads a cvs file supposed to be in the CONTENT_PATH
+ * with data information (YYYY in first col, MM in 2nd, DD in 3rd)
+ */
+function read_csv_with_date($filename="") {
+  $row=0;
+  if (($handle = fopen(CONTENT_PATH . $filename, "r")) !== FALSE) {
+    $data = fgetcsv($handle); # first line is header, throw away
+    $data = fgetcsv($handle); # 2nd as well
+    while (($d = fgetcsv($handle)) !== FALSE) {
+      array_unshift($d, strtotime($d[0].'-'.$d[1].'-'.$d[2]));
+      $lines[] = $d;
+  }
+    fclose($handle);
+    return $lines;
+  }
+  else {
+    return FALSE;
+  }
+}
 
 /**
  * this function actually creates the menu

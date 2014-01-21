@@ -23,13 +23,13 @@ else if (array_key_exists('past', $_GET)) {$CHK = function($date) {
 else {$CHK = function($date) {return TRUE;};}
 
 /* read data */
-$lines = read_csv("data/seminars.csv");
+$lines = read_csv_with_date("data/seminars.csv");
+rsort($lines);
 
 /* filter and display */
 foreach($lines as $l){
-  $date = strtotime($l[0].'-'.$l[1].'-'.$l[2]);
-  if ($CHK($date)) {
-    $str = $l[0] .'-'. $l[1] .'-'. $l[2] .' -- ' . $l[3] . ' ('. $l[4] . ')<br>';
+  if ($CHK($l[0])) {
+    $str = $l[1] .'-'. $l[2] .'-'. $l[3] .' -- ' . $l[4] . ' ('. $l[5] . ')<br>';
     echo $str;
   }
 }
