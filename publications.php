@@ -4,7 +4,9 @@
 
   /* make sure $page and $subpage correspond to the items specified in ./lib/menu.php */
   $page    = "publications";
-  $subpage = "";
+  if (isset($_GET['current'])) {$subpage = "current";} 
+  else if (isset($_GET['older'])) {$subpage = "older";} 
+  else {$subpage = "";} 
 
   /* do the work */  
   render($page, $subpage);

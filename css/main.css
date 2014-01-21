@@ -223,14 +223,14 @@ nav a:visited {
 }
 
 nav li.active {
-  color: #aaf;
+  color: #aaa;
   background-color: #000;
 }
 
 
 nav li:hover {
   color: #fff;
-  background-color: #aaf;
+  background-color: #84A5DE;
 }
 
 
@@ -243,11 +243,16 @@ article {
   /* min-height: 100%; */
   /*min-height: 500px;*/
   margin: 0.5em 0.5em 0 0.5em;
-  padding-bottom: 3em
+  padding-bottom: 3em; /* platz fuer footer */
 }
 
+/* ein artikel dem noch einer folgt -> kein platz fuer footer */
 article + article {
   margin: 0.5em 0.5em 0 0.5em;
+}
+
+article p {
+  line-height: 1.75; /* Zeilenabstand */
 }
 
 h2 {

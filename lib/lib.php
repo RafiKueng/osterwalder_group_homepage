@@ -1,35 +1,48 @@
 <?php
 
+function render($page="home", $subpage=""){
+  
+  global $structre;
+  
+  require_once(TEMPL_PATH . "header.php");
+  render_menu($page, $subpage);
+  if (strlen($subpage)==0) {require_once(CONTENT_PATH . $structre[$page][1]);}
+  else {
+    #var_dump($structre);
+    #echo "<hr>";
+    #var_dump($page);
+    #var_dump($subpage);
+    $path = explode('?',$structre[$page][2][$subpage][1]); # cut any get parameters
+    require_once(CONTENT_PATH . $path[0]);}
+  require_once(TEMPL_PATH . "footer.php");
+  
+}
+
+
 /**
- * $structure defines the menu structure
- * 
- * each entry is of type:
- * "shortname" => array("title", "phpfile.php", $subpages),
- * 
- * where:
- * - shortname: internal reference name
- * - title:     official title, used in menu
- * - phpfile:   which file in ./content/ to call for the actual content
- * - $subpages: another array with possible subpages, of the same type
+ * reads a cvs file supposed to be in the CONTENT_PATH
  */
-
-$structre = array(
-  "home"         => array("Home", "index.php"),
-  "research"     => array("Research", "research.php", array(
-      /*"current" => array("Current Projects", "research_current.php"),*/
-      "p1" => array("Project1", "research_p1.php"),
-      "p2" => array("Project2", "research_p2.php"),
-      "p3" => array("Project3", "research_p3.php")
-  )),
-  "people"       => array("People", "people.php", array(
-      "current" => array("current", "people_current.php"),
-      "older"   => array("older", "people_older.php")
-  )),
-  "publications" => array("Publications", "publications.php"),
-  "seminars"     => array("Seminars", "seminars.php"),
-  "about"        => array("About", "about.php"),
-);
-
+function read_csv($filename="") {
+  $row=0;
+  if (($handle = fopen(CONTENT_PATH . $filename, "r")) !== FALSE) {
+    $data = fgetcsv($handle); # first line is header, throw away
+    while (($data = fgetcsv($handle)) !== FALSE) {
+        $num = count($data);
+        # echo "<p> $num Felder in Zeile $row: <br /></p>\n";
+        $row++;
+        #for ($c=0; $c < $num; $c++) {
+            #echo $data[$c] . "<br />\n";
+        #}
+        
+        $lines[] = $data;
+    }
+    fclose($handle);
+    return $lines;
+  }
+  else {
+    return FALSE;
+  }
+}
 
 
 /**
@@ -69,5 +82,7 @@ function render_menu($page="home", $subpage=""){
   /* clean up */
   echo "        </nav>\n";
 }
+
+
 
 ?>
