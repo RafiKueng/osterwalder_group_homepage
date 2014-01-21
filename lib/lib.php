@@ -19,32 +19,9 @@ function render($page="home", $subpage=""){
 }
 
 /**
- * reads a cvs file supposed to be in the CONTENT_PATH
- * with data information (YYYY in first col, MM in 2nd, DD in 3rd)
- */
-function read_csv($filename="",$offset=2, $add_date = FALSE) {
-  $row=0;
-  if (($handle = fopen(CONTENT_PATH . $filename, "r")) !== FALSE) {
-    # get rid of the first $offset lines
-    for (;$offset>0;$offset--){$data = fgetcsv($handle);}
-
-    while (($d = fgetcsv($handle)) !== FALSE) {
-      if ($add_date) {array_unshift($d, strtotime($d[0].'-'.$d[1].'-'.$d[2]));}
-      $lines[] = $d;
-  }
-    fclose($handle);
-    return $lines;
-  }
-  else {
-    return FALSE;
-  }
-}
-
-/**
  * this function actually creates the menu
  * excepts two parameters, that refere to the current page  and subpage we are on
  */
- 
 function render_menu($page="home", $subpage=""){
 
   global $structre;
@@ -78,6 +55,31 @@ function render_menu($page="home", $subpage=""){
   echo "        </nav>\n";
 }
 
+
+
+
+
+/**
+ * reads a cvs file supposed to be in the CONTENT_PATH
+ * with data information (YYYY in first col, MM in 2nd, DD in 3rd)
+ */
+function read_csv($filename="",$offset=2, $add_date = FALSE) {
+  $row=0;
+  if (($handle = fopen(CONTENT_PATH . $filename, "r")) !== FALSE) {
+    # get rid of the first $offset lines
+    for (;$offset>0;$offset--){$data = fgetcsv($handle);}
+
+    while (($d = fgetcsv($handle)) !== FALSE) {
+      if ($add_date) {array_unshift($d, strtotime($d[0].'-'.$d[1].'-'.$d[2]));}
+      $lines[] = $d;
+  }
+    fclose($handle);
+    return $lines;
+  }
+  else {
+    return FALSE;
+  }
+}
 
 
 ?>
