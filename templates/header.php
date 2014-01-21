@@ -28,6 +28,7 @@ echo <<<END
         <![endif]-->
 
         <div id="container">
+        <div id="topborder"></div>
         <header>
           <img id="uzhlogo" src="img/uzh_logo_d_pos_web_main_zone.jpg"/>
           <h1>$h1title</h1>
