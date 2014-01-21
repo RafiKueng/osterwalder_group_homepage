@@ -1,6 +1,6 @@
 <?php
 
-$lines = read_csv("data/people_older.csv");
+$lines = read_csv("data/people_older.csv",1);
 
 echo <<<END
 <article>

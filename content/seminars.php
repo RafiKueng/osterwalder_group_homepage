@@ -23,7 +23,7 @@ else if (array_key_exists('past', $_GET)) {$CHK = function($date) {
 else {$CHK = function($date) {return TRUE;};}
 
 /* read data */
-$lines = read_csv_with_date("data/seminars.csv");
+$lines = read_csv("data/seminars.csv",2,TRUE);
 rsort($lines);
 
 /* filter and display */

@@ -23,7 +23,7 @@ else if (isset($_GET['y'])) {$CHK = function($date) {
 else {$CHK = function($date) {return TRUE;};}
 
 /* read data */
-$lines = read_csv_with_date("data/publications.csv");
+$lines = read_csv("data/publications.csv", 2, TRUE);
 rsort($lines);
 
 /* filter and display */
