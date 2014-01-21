@@ -50,7 +50,10 @@ $structre = array(
       "2013"        => array("2013",    "publications.php?y=2013"),
       "2012"        => array("2012",    "publications.php?y=2012")
   )),
-  "seminars"     => array("Seminars", "seminars.php"),
+  "seminars"     => array("Seminars", "seminars.php", array(
+      "upcomming"   => array("upcomming", "seminars.php?upcomming"),
+      "past"        => array("past",      "seminars.php?past"),
+  )),
   "about"        => array("About", "about.php"),
 );
 
