@@ -1,14 +1,10 @@
-<?php
-
-$lines = read_csv("data/people_current.csv",1);
-
-echo <<<END
 <article>
   <h2>People current</h2>
   <ul class="peoplelist current">
-END;
 
+<?php
 
+$lines = read_csv("data/people_current.csv",1);
 foreach($lines as $l){
   $str =  '    <li><span class="titlename">';
   $str .= (strlen($l[3])>0 ? '<a class="homepage" href="'.$l[3].'">' : '');
@@ -21,11 +17,7 @@ foreach($lines as $l){
   $str .= '</li>';
   echo $str;
 }
+?>
 
-echo <<<END
   </ul>
 </article>
-END;
-
-
-?>
