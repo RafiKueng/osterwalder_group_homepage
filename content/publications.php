@@ -5,6 +5,9 @@
   </p>
 </article>
 
+<article>
+  <ul class="peoplelist current">
+
 <?php
 /**
  * The Publications are saved in the file /content/data/publications.csv
@@ -27,10 +30,17 @@ $lines = read_csv("data/publications.csv", 2, TRUE);
 rsort($lines);
 
 /* filter and display */
+#$yr = 000;
 foreach($lines as $l){
   if ($CHK($l[0])) {
-    $str = $l[1] .'-'. $l[2] .'-'. $l[3] .' -- ' . $l[4] . ' ('. $l[5] . ')<br>';
+    $str  = '<li>';
+    $str .= $l[4] . '<br>';
+    $str .= $l[5] . '<br>';
+    $str .= $l[6] . '(' . $l[6] . ') DOI:' . $l[7];
+    $str .= ' <a href="' . $l[8] . '">download</a></li>' ;
     echo $str;
   }
 }
 ?>
+  </ul>
+</article>

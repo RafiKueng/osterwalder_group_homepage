@@ -5,7 +5,13 @@
   </p>
 </article>
 
-
+<article>
+  <table>
+  <tr>
+    <th>Date</th>
+    <th>Title</th>
+    <th>Speaker</th>
+  </tr>
 <?php
 /**
  * The Seminars are saved in the file /content/data/seminars.csv
@@ -29,8 +35,15 @@ rsort($lines);
 /* filter and display */
 foreach($lines as $l){
   if ($CHK($l[0])) {
-    $str = $l[1] .'-'. $l[2] .'-'. $l[3] .' -- ' . $l[4] . ' ('. $l[5] . ')<br>';
+    $str  = '<tr>';
+    $str .= '<td>' . $l[1] .'-'. $l[2] .'-'. $l[3] . '</td>';
+    $str .= '<td>' . $l[4] . '</td>';
+    $str .= '<td>' . $l[5] . '</td>';
+    $str .= '</tr>';
     echo $str;
   }
 }
 ?>
+
+  </table>
+</article>

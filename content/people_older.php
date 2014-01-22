@@ -1,13 +1,10 @@
-<?php
-
-$lines = read_csv("data/people_older.csv",1);
-
-echo <<<END
 <article>
   <h2>People older</h2>
   <ul class="peoplelist old">
-END;
 
+<?php
+
+$lines = read_csv("data/people_older.csv",1);
 
 foreach($lines as $l){
   $str =  '    <li><span class="titlename">';
@@ -19,9 +16,8 @@ foreach($lines as $l){
   echo $str;
 }
 
-echo <<<END
+?>
+
     </ul>
 </article>
-END;
 
-?>
