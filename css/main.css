@@ -1,3 +1,26 @@
+/**
+ *   Default color scheme:
+ * **************************************************
+ * 1. main color:     black     #000
+ * 2. active color:   gray      #AAA
+ * 3. hilight color:  grayblue  #84A5DE
+ * 
+ *   Font sizes:
+ * **************************************************
+ * all relative!!
+ * 
+ * default text:          100%                <-> 1.0em
+ * smaller annotations:    80%                <-> 0.8em
+ * main title (h1):       200%                <-> 2.0em
+ * sub title (h1):         80% of 200% = 160% <-> 1.6em 
+ * article title (h2):    150%                <-> 1.5em
+ * article subtitle (h3):  80% of 150% = 120% <-> 1.2em
+ * 
+ * summing it up:
+ * (2em / 1.6em) -- (1.5em / 1.2em) -- (1em / 0.8em)
+ */
+
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -7,12 +30,12 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+  color: #000;
 }
 
 html {
-    font-size: 1em;
-    line-height: 1.4;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /*
@@ -20,80 +43,77 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #84A5DE;
+  text-shadow: none;
 }
-
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #84A5DE; /* default: #b3d4fc*/
+  text-shadow: none;
 }
 
 /*
  * A better looking default horizontal rule
  */
-
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-
 audio,
 canvas,
 img,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
-
 .browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
+
 
 /* ==========================================================================
    Custom styles
    ========================================================================== */
 
-/** basic coloring */
+/**
+ *   basic background coloring
+ **/
+/* gray border */
 html, #topborder, footer {
   background-color:#aaa;
 }
-
+/* white main background */
 body, #container {
   background-color:#fff;
 }
@@ -117,11 +137,14 @@ body {
   font-weight: 300;  
 }
 
-#container { /* this is needed to place the footer correctly */
+/* contains all elemnts: topborder, banner, nav, articles, footer */
+/* this is needed to place the footer correctly */
+#container { 
   position: relative;
   min-height: 100%;
 }
 
+/* gray small border on top */
 #topborder {
   height: 10px;
 }
@@ -134,7 +157,7 @@ header, nav {
 }
 
 header {
-  margin: 0 0 70px 0; /* bottom = height of nav */
+  margin: 0 0 70px 0; /* bottom (70px) = height of nav !!! */
 }
 
 #uzhlogo {
@@ -142,11 +165,21 @@ header {
   float: right;
 }
 
+/* both lines of the title block */
 h1 {
   display: block;
   margin: 0.5em 0 0.5em 0.5em;
 }
+/* top line of title block */
+#h1main {
+}
+/* bottom line of title block */
+#h1sub {
+  font-size: 80%;
+  color: #aaa;
+}
 
+/* image banner */
 #banner {
   display:block;
   width: 1000px;

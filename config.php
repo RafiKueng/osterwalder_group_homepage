@@ -14,7 +14,9 @@ $updated = "Dec. 2013";
 $title = "Surface Physics - Osterwalder Group";
 
 /* displayed title of page (h1) */
-$h1title = "Surface Physics<br>Osterwalder Group";
+$h1title = "Surface Physics";
+$h1subtitle = "Osterwalder Group";
+
 
 /* how old can a publication be to be considered "current"? */
 $max_pup_age = strtotime("-3 years"); /* has to be published at max 3 years ago*/

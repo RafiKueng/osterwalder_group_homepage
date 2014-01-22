@@ -2,6 +2,7 @@
 
 global $title;
 global $h1title;
+global $h1subtitle;
 
 echo <<<END
 <!DOCTYPE html>
@@ -31,9 +32,12 @@ echo <<<END
         <div id="topborder"></div>
         <header>
           <img id="uzhlogo" src="img/uzh_logo_d_pos_web_main_zone.jpg"/>
-          <h1>$h1title</h1>
+          <h1>
+            <span id="h1main">$h1title</span>
+            <br>
+            <span id="h1sub">$h1subtitle</span>
+          </h1>
           <img id="banner" src="img/demo.png" alt="" />
         </header>
-        
 END;
 ?>
