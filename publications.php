@@ -4,6 +4,8 @@
 
   /* make sure $page and $subpage correspond to the items specified in ./lib/menu.php */
   $page    = "publications";
+
+  /* set subpage flag according to get parameter */
   if (isset($_GET['current'])) {$subpage = "current";} 
   else if (isset($_GET['older'])) {$subpage = "older";} 
   else if (isset($_GET['y'])) {$subpage = $_GET['y'];} 

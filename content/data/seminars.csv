@@ -1,6 +1,127 @@
-﻿"MAKE SURE TO SAVE AS UTF8","","","",""
-"YEAR","MONTH","DAY","TITLE","SPEAKER"
-1990,02,28,"My 1st Seminar","myself"
-2015,01,01,"My 4th Seminar","myself2"
-2014,03,01,"My 3rd Seminar","myself2"
-2014,01,01,"My 2nd Seminar","myself2"
+"MAKE SURE TO SAVE AS UTF8",,,,,
+"YEAR","MONTH","DAY","TITLE","SPEAKER",
+2013,12,18,"Morelight","Gerson Mette",18.12.13
+2013,12,4,"Movi movi","Michael Greif",04.12.13
+2013,11,20,"t-res TiSe","Claude Monney",20.11.13
+2013,11,6,"Ioni Ioni with the old gun","Manuel Graf",06.11.13
+2013,10,30,"OFE possibly confirmed !","Hirofumi Yanagisawa",30.10.13
+2013,10,23,"Carbides","Silvan Roth",23.10.13
+2013,10,16,"Catalysts for Hydrogenation Reactions Probed by X-ray Photoemission","Jeffrey Gehrig",16.10.13
+2013,10,9,"Rocking Endos at PEARL","Roland Stania",09.10.13
+2013,10,2,"Their Phase","Michael Greif",02.10.13
+2013,9,25,"Home alone","Gabriel Landolt",25.09.13
+2013,9,18,"Bandstructure Dynamics","Sabbiv Ahsan",18.09.13
+2013,6,5,"It works","Adrian Hemmi",05.06.13
+2013,5,29,"If U can't peel it, cook it.","Ronny Ruettimann",29.05.13
+2013,5,22,"They are orange","Adrian Schuler",22.05.13
+2013,5,15,"The final Spurt: P III","Silvan Roth",15.05.13
+2013,4,24,"Lecture on Surface Resistance","Carlo Bernhard",24.04.13
+2013,4,17,"PC-PEARL","Roland Stania",17.04.13
+2013,4,3,"High Z hybrids","Gabriel Landolt",03.04.13
+2013,3,13,"Attonews","Michael Greif",13.03.13
+2013,2,20,"Nanotent XPD","Luis Henrique de Lima",20.02.13
+2012,12,19,"Let them switch","Adrian Schuler",19.12.12
+2012,12,5,"Tailoring the mesh","Adrian Hemmi",05.12.12
+2012,11,28,"Paper 2","Silvan Roth",28.11.12
+2012,11,21,"Under Cover","Huanyao Cun",21.11.12
+2012,11,14,"My Masterthesis","Stefan Muff",14.11.12
+2012,11,7,"The NBL experience","Carlo Bernhard",07.11.12
+2012,10,31,"My first 100 shifts","Roland Stania",31.10.12
+2012,10,24,"One more","Rasmus Westerström",24.10.12
+2012,10,17,"Fermisurfaces deep inside","Gabriel Landolt",17.10.12
+2012,10,10,"Good News","Bartosz Slomski",10.10.12
+2012,10,3,"Rotating Orbitals","Michael Greif",03.10.12
+2012,9,26,"Photoemission: ultrafast and in strong fields.","Luca Castiglioni",26.09.12
+2012,5,30,"Lead it be","Bartosz Slomski",30.05.12
+2012,5,23,"High Z and SO interaction in lattices","Gabriel Landolt",23.05.12
+2012,5,16,"Inverted world","Stefan Muff",16.05.12
+2012,5,2,"Light emission from a dot","Carlo Bernard",02.05.12
+2012,4,25,"C on B","Silvan Roth",25.04.12
+2012,4,18,"Lateral segregation","Roland Stania",18.04.12
+2012,4,4,"Let there be OLED","Adrian Hemmi",04.04.12
+2012,3,21,"The worlds best SMM","Rasmus Westerström",21.03.12
+2012,2,22,"Black and White Pores","Huanyao Cun",22.02.12
+2011,12,7,"PLEED","Eveline Eisenring",07.12.11
+2011,11,30,"Spin Gun Status","Colette Janssen",30.11.11
+2011,11,23,"Switch","Michael Greif",23.11.11
+2011,11,16,"Mustard: First photoelectrons ?","Luca Castiglioni",16.11.11
+2011,11,9,"Out of plane","Gabriel Landolt",09.11.11
+2011,11,2,"Still Spinning","Bartosz Slomski",02.11.11
+2011,10,19,"The Sandwich","Silvan Roth",19.10.11
+2011,10,12,"Nanoantennas","Carlo Bernard",12.10.11
+2011,10,5,"The mesh on alloys","Roland Stania",05.10.11
+2011,9,28,"See it grow","Adrian Hemmi",28.09.11
+2011,9,21,"How much Spin do they carry","Rasmus Westerström",21.09.11
+2011,6,1,"Back to Graphene","Silvan Roth",01.06.11
+2011,5,25,"Stanning diffraction","Michael Greif",25.05.11
+2011,5,18,"Sinergia at work","Adrian Hemmi",18.05.11
+2011,5,11,"Results","Hugo Dil",11.05.11
+2011,4,20,"My Spinterface","Gabriel Landolt",20.04.11
+2011,4,13,"All's well that spins well","Bartosz Slomski",13.04.11
+2011,4,6,"Fast fertig","Dominik Leuenberger",06.04.11
+2011,3,30,"Anyons in the mesh","Huanyao Cun",30.03.11
+2011,3,23,"First Mustards","Luca Castiglioni",23.03.11
+2011,3,9,"My molecule ... what else!","Michael Greif",09.03.11
+2011,3,2,"Water IV","Haifeng Ma",02.03.11
+2011,1,9,"UPD","Jürg Osterwalder",09.01.11
+2011,1,26,"The first 100 days","Adrian Hemmi",26.01.11
+2011,1,19,"Heterojunctions, finally","Silvan Roth",19.01.11
+2011,1,5,"My first data","Gabriel Landolt",05.01.11
+2010,12,15,"My first year at UZH","Huanyao Cun",15.12.10
+2010,11,24,"Delay with Display","Dominik Leuenberger",24.11.10
+2010,11,17,"Wien (2k) nur Du allein sollst die Statt meiner Träume sein","Bartosz Slomski",17.11.10
+2010,11,3,"Water III","Haifeng Ma",03.11.10
+2010,10,27,"The Chamber and the Mesh","Martin Klöckner",27.10.10
+2010,10,20,"Summary and Outlook","Hirofumi Yanagisawa",20.10.10
+2010,10,6,"My Bachelor Thesis","Stefan Muff",06.10.10
+2010,9,29,"Final Spurt","Fabian Meier",29.09.10
+2010,9,22,"To Mott","Martin Morscher",22.09.10
+2010,9,15,"Das zweite Drittel","Huanyao Cun",15.09.10
+2010,7,1,"Heterojunctions","Silvan Roth",01.07.10
+2010,7,1,"Display, display","Dominik Leuenberger",01.07.10
+2010,6,23,"Beamtime IV","Bartosz Slomski",23.06.10
+2010,6,16,"Kerr II","Gabriel Landolt",16.06.10
+2010,6,9,"4 inch 4 ever","Haifeng Ma",09.06.10
+2010,5,26,"Dipolar order","Adrian Hemmi",26.05.10
+2010,5,19,"The BN heater","Martin Klöckner",19.05.10
+2010,5,12,"How to make it dance","Stefan Muff",12.05.10
+2010,5,5,"More on the kinetic energy of electrons from field emission tips","Hirofumi Yanagisawa",05.05.10
+2010,4,28,"Up and down","Fabian Meier",28.04.10
+2010,4,21,"Mott scattering events at Irchel","Martin Morscher",21.04.10
+2010,4,14,"My first 100 days","Huanyao Cun",14.04.10
+2010,4,7,"What you always wanted to know about Time-Reversal-Protected Single-Dirac-Cone Topological-Insulator States","Hugo Dil",07.04.10
+2010,3,31,"My third Beamtime","Bartosz Slomski",31.03.10
+2010,3,24,"Kerr at Cophee","Gabriel Landolt",24.03.10
+2010,3,17,"Time resolved Topologies","Dominik Leuenberger",17.03.10
+2010,3,10,"The Portland Story","Haifeng Ma",10.03.10
+2010,3,3,"g/Rh(111)","Silvan Roth",03.03.10
+2010,2,24,"Sinergia Runs","Martin Klöckner",24.02.10
+2010,2,10,"Nano-Diamonds","Matthias Hengsberger",10.02.10
+2010,2,3,"My Ambitione","Hirofumi Yanagisawa",03.02.10
+2010,1,27,"Mapping the Domains on Ni(111) yoke-crystals","Martin Morscher",27.01.10
+2010,1,20,"News from Cophee","Fabian Meier",20.01.10
+2010,1,13,"QA16","Huanyao Cun",13.01.10
+2009,12,16,"Proposal of my Master Thesis: Spin Gun","Colette Janssen",16.12.09
+2009,12,9,"My second beamtime","Bartosz Slomski",09.12.09
+2009,11,18,"Japan and Mott","Martin Morscher",18.11.09
+2009,11,11,"Proposal of my Master Thesis","Gabriel Landolt",11.11.09
+2009,11,4,"My EDC - Project","Dominik Leuenberger",04.11.09
+2009,10,28,"My thesis","Thomas Brugger",28.10.09
+2009,10,21,"Surface Alloys in Aarhus","Fabian Meier",21.10.09
+2009,10,14,"Protons in ice","Haifeng Ma",14.10.09
+2009,10,7,"My year near Industry","Silvan Roth",07.10.09
+2009,9,30,"Status of the 4 inch project","Martin Klöckner",30.09.09
+2009,9,23,"MUST es sein","Matthias Hengsberger",23.09.09
+2009,9,16,"On the energy LAFE electrons","Hirofumi Yanagisawa",16.09.09
+2009,9,9,"The Aarhus Project","Fabian Meier",09.09.09
+2009,9,2,"Topological Insulators","Hugo Dil",02.09.09
+2009,8,26,"Dichroic XPD","Martin Morscher",26.08.09
+2009,8,19,"Preparation of h-BN single layers","Meral Aksak",19.08.09
+2009,8,12,"My first Beamtime with COPHEE","Bartosz Slomski",12.08.09
+2009,8,5,"Hot Itinerant Ferromagnets","Dominik Leuenberger",05.08.09
+2009,7,29,"Peeling Nanomesh","Thomas Brugger",29.07.09
+2009,7,21,"China-Singapore Report","Thomas Greber",21.07.09
+2009,7,14,"Graphene on the Nanomesh","Dominic Böni",14.07.09
+2009,7,8,"Dancing Water","Haifeng Ma",08.07.09
+2009,7,1,"Rashba 4 ever","Fabian Meier",01.07.09
+2009,6,24,"An Attosecond Switch for Electrons","Hirofumi Yanagisawa",24.06.09

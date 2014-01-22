@@ -3,6 +3,7 @@
  * Want to change something?
  * - content of the page -> look at files in CONTENT_PATH (./content)
  * - add additional menu items -> change $structure in this file and create new files in ./
+ *   and CONTENT_PATH
  * - change the layout -> look at header files in ./templates or ./css/main.css
  */
 
