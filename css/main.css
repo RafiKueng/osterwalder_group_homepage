@@ -349,11 +349,14 @@ figure figcaption {
  * 
  */
 table.people {
-  width: 75%;
   margin: 0 auto;
 }
 
 table.people.current {
+  width: 75%;
+}
+table.people.former {
+  width: 90%;
 }
 
 table.people.current col.image {
@@ -378,6 +381,17 @@ table.people img {
   max-height: 100%;
   max-width:  100%;
 }
+
+table.people.former tr {
+  border-bottom: black solid 1px;
+}
+table.people.former col.annotation {
+  width: 50%;
+}
+table.people.former td.annotation {
+  font-size: 80%;
+}
+
 
 
 #tbl_seminar {
@@ -432,36 +446,6 @@ footer a {
   color: #333;
 }
 
-/* === SPECIAL CONTENT === */
-
-
-/*people page*/
-
-.peoplelist li {
-  padding: 0 0 0.33em 0;
-}
-
-.peoplelist.current .homepage{
-  display: inline-block;
-  min-width: 200px;
-}
-
-.peoplelist .titlename {
-  display: inline-block;
-  min-width: 200px;
-}
-
-.peoplelist .email{
-  display: inline-block;
-  min-width: 200px;
-}
-
-.room,
-.email,
-.leavedate,
-.leavedest {
-  font-size: 0.667em;
-}
 
 
 

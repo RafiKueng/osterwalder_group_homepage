@@ -5,5 +5,5 @@
  */
 
 require_once(CONTENT_PATH . "people_current.php");
-require_once(CONTENT_PATH . "people_older.php");
+require_once(CONTENT_PATH . "people_former.php");
 ?>

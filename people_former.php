@@ -4,7 +4,7 @@
 
   /* make sure $page and $subpage correspond to the items specified in ./lib/menu.php */
   $page    = "people";
-  $subpage = "older";
+  $subpage = "former";
 
   /* do the work */  
   render($page, $subpage);

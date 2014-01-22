@@ -44,7 +44,7 @@ $structre = array(
   )),
   "people"       => array("People", "people.php", array(
       "current"     => array("current", "people_current.php"),
-      "older"       => array("older",   "people_older.php")
+      "former"      => array("former",   "people_former.php")
   )),
   "publications" => array("Publications", "publications.php", array(
       "current"     => array("current", "publications.php?current"),
