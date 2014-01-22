@@ -604,7 +604,7 @@ footer a {
     a:visited {
         text-decoration: underline;
     }
-
+    /*
     a[href]:after {
         content: " (" attr(href) ")";
     }
@@ -612,15 +612,66 @@ footer a {
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
+    */
+   
     /*
      * Don't show links for images, or javascript/internal links
      */
-
+    /*
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
         content: "";
+    }
+    */
+   
+    html, body, p {
+      font-size: 10pt;
+    }
+    body, #container {
+      min-height:default;
+      height:default;
+    }
+    header {
+      margin: 0 0 0.5em 0;
+    }
+    h1 {
+      font-size:1.5em;
+    }
+    #uzhlogo {
+      height: 5em;
+    }
+    #banner {
+      display:none;
+    }
+    
+    nav, nav ul {
+      display: inline-block;
+      position: static !important;
+      height: auto;
+      padding: 5px !important;
+    }
+    
+    nav ul, nav li, nav span {
+      display: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul.top, nav ul.active {
+      display:inline-block !important;
+    }
+    nav li.active {
+      display: inline-block !important;
+    }
+
+    nav ul.top li.active:before {
+      content: 'Menu: > ';
+    }    
+    nav ul.sub li.active:before {
+      content: ' > ';
+    }    
+    footer {
+      position: static !important;
     }
 
     pre,
