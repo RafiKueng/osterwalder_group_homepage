@@ -3,7 +3,7 @@
   require_once(realpath(dirname(__FILE__) . "/config.php"));
 
   /* make sure $page and $subpage correspond to the items specified in ./lib/menu.php */
-  $page    = "about";
+  $page    = "open_positions";
   $subpage = "";
 
   /* do the work */  
