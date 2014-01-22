@@ -310,6 +310,29 @@ figure figcaption {
   margin-top: 8px;
 }
 
+#tbl_seminar {
+  width: 100%;
+}
+
+#tbl_seminar th {
+  text-align:left;
+}
+
+#tbl_seminar tr {
+  border-bottom: 1px solid black;
+}
+
+#sem_date {
+  min-width: 100px;
+}
+
+#sem_title {
+  min-width: 500px;
+}
+
+#sem_speaker {
+  min-width: 200px;
+}
 
 
 

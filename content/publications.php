@@ -36,7 +36,7 @@ foreach($lines as $l){
     $str  = '<li>';
     $str .= $l[4] . '<br>';
     $str .= $l[5] . '<br>';
-    $str .= $l[6] . '(' . $l[6] . ') DOI:' . $l[7];
+    $str .= $l[6] . ' (' . $l[1] . ') DOI:' . $l[7];
     $str .= ' <a href="' . $l[8] . '">download</a></li>' ;
     echo $str;
   }

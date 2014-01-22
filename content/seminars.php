@@ -6,11 +6,11 @@
 </article>
 
 <article>
-  <table>
+  <table id="tbl_seminar">
   <tr>
-    <th>Date</th>
-    <th>Title</th>
-    <th>Speaker</th>
+    <th id="sem_date">Date</th>
+    <th id="sem_title">Title</th>
+    <th id="sem_speaker">Speaker</th>
   </tr>
 <?php
 /**
