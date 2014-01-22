@@ -343,6 +343,43 @@ figure figcaption {
   margin-top: 8px;
 }
 
+
+/***************
+ * page specific elements
+ * 
+ */
+table.people {
+  width: 75%;
+  margin: 0 auto;
+}
+
+table.people.current {
+}
+
+table.people.current col.image {
+  width: 7em;
+}
+
+table.people.current td {
+  height: 7em;
+  padding: 5px;
+}
+
+table.people.current td.image {
+  text-align: center;
+}
+
+table.people.current td.data {
+  padding-left: 10px;
+}
+
+/* shrink images that are too big */
+table.people img {
+  max-height: 100%;
+  max-width:  100%;
+}
+
+
 #tbl_seminar {
   width: 100%;
 }

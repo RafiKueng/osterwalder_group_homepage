@@ -7,11 +7,14 @@
 
 <article>
   <table id="tbl_seminar">
-    <tr>
-      <th id="sem_date">Date</th>
-      <th id="sem_title">Title</th>
-      <th id="sem_speaker">Speaker</th>
-    </tr>
+    <thead>
+      <tr>
+        <th id="sem_date" scope="col">Date</th>
+        <th id="sem_title" scope="col">Title</th>
+        <th id="sem_speaker" scope="col">Speaker</th>
+      </tr>
+    </thead>
+    <tbody>
 <?php
 /**
  * The Seminars are saved in the file /content/data/seminars.csv
@@ -35,7 +38,7 @@ rsort($lines);
 /* filter and display */
 foreach($lines as $l){
   if ($CHK($l[0])) {
-    $str  = '<tr>';
+    $str  = '      <tr>';
     $str .= '<td>' . $l[3] .'.'. $l[2] .'.'. $l[1] . '</td>';
     $str .= '<td>' . $l[4] . '</td>';
     $str .= '<td>' . $l[5] . '</td>';
@@ -44,6 +47,6 @@ foreach($lines as $l){
   }
 }
 ?>
-
+    </tbody>
   </table>
 </article>

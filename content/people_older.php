@@ -1,6 +1,28 @@
 <article>
-  <h2>People older</h2>
+  <h2>Former Members</h2>
+
+  <table class="people former">
+    <colgroup>
+      <col class="name">
+      <col class="email">
+      <col class="annotation">
+    </colgroup>
+    <tbody>
+      <tr>
+        <td class="name">
+        </td>
+        <td class="email">
+        </td>
+        <td class="annotation">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
   <ul class="peoplelist old">
+
+
 
 <?php
 
