@@ -42,8 +42,7 @@ $( window ).resize(function() {
  * menu animations
  */
 
-// events of top menu
-
+// If mouseover on topmenu element, show submenu items for corresponddiing element
 $('nav ul.top li')
   .mouseenter(function() {
     if (touch) {return;}
@@ -53,36 +52,9 @@ $('nav ul.top li')
       //.hide()
       .css("z-index", 9)
       .slideDown('fast');
-  })
-  /*
-  .mouseleave(function(evt){
-    if (touch) {return;}
-    var e = event.toElement || event.relatedTarget;
-    // break if childnode of the li
-    if (e.parentNode == this || e == this) {return;}
-    // don't do anything if this is active anyways    
-    if ($(this).hasClass('active')) {return;}
-    
-    $('#sm_' + this.id).slideUp('fast');
-  })*/
-  ;
+  });
 
-
-//correct handling if entering / leaving sub menu
-/*
-$('nav ul.sub')
-  .mouseenter(function(){
-    if (touch) {return;}
-    $(this).stop(true).show();
-  })*/
-  
-/*  .mouseleave(function(){
-    if (touch) {return;}
-    if ($(this).hasClass('active')) {return;}
-    $(this).slideUp('fast');
-  })*/
-;
-
+// if mouse leves nav area, restore default view
 $('nav')
   .mouseleave(function(){
     if (touch) {return;}

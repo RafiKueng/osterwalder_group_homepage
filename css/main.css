@@ -589,6 +589,9 @@ html.touch .subbg {
     padding: 0 !important;
     margin: 0;
   }
+  nav.fixed {
+    width: 100%;
+  }
   
   nav ul.top {
     font-size: 90%;
@@ -597,6 +600,11 @@ html.touch .subbg {
   nav .menu.sub {
     margin:0;
     font-size: 90%;
+  }
+  
+  #sem_title {
+    width:auto;
+    min-width: 0;
   }
   
 }
