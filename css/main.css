@@ -558,40 +558,58 @@ footer a {
 }
 
 
+html.touch .subbg {
+  background-color:magenta;
+}
 
 
 /* ==========================================================================
    Media Queries for Responsive Design.
    ========================================================================== */
 
-
-@media only screen and (min-width: 640px) and (max-width: 750px) {
-  body {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 640px) {
+/* switch to mobile design */
+@media only screen and (max-width: 961px) {
   body {
     width: 100%;
     min-width: 640px;
   }
+  
+  #topborder {
+    display: none;
+  }
+  
+  header {
+    margin-bottom: 0px;
+  }
+  
+  nav {
+    display: block;
+    position: static !important;
+    height: 4em;
+    padding: 0 !important;
+    margin: 0;
+  }
+  
+  nav ul.top {
+    font-size: 90%;
+  }
+  
+  nav .menu.sub {
+    margin:0;
+    font-size: 90%;
+  }
+  
 }
 
-
-
-
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/*
+@media only screen and (max-width: 640px) {
+  body {
+    width: 640px;
+  }
 }
+*/
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
+
 
 /* ==========================================================================
    Print styles.
