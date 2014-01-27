@@ -37,10 +37,7 @@ function render_menu($page="home", $subpage=""){
   echo "          </ul>\n";
 
   /* submenues */
-  # empty entry;
-  echo "          <ul id='sm_none' class='menu subbg'>\n";
-  echo "          </ul>\n";
-  
+ 
   $items = array();
   foreach($structre as $key=>$value){
     if (isset($value[2])) { // is there a sub menu appended?

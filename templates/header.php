@@ -18,6 +18,8 @@ echo <<<END
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google" content="notranslate" />
         <meta http-equiv="Content-Language" content="en_US" />
+        <meta name="author" content="Rafael Kueng <rafik@physik.uzh.ch>">
+        <meta name="web_author" content="Rafael Kueng <rafik@physik.uzh.ch>">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">

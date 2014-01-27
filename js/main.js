@@ -33,12 +33,15 @@ function alignSubMenus() {
  * REGISTER EVENT HANDLERS
  ************************************************************************/
 
+/*
+ * make sure sub menues are always algined with corresponding top menu
+ */
 $( window ).resize(function() {
   alignSubMenus();
 });
 
 
-/***
+/*
  * menu animations
  */
 
